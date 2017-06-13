@@ -9,6 +9,7 @@ to update this file on board
 login on sparky volumio or dietpi image booted board.
 
 root@volumio:~/ cd /home/
+
 root@volumio:/home# wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/usb-port1-enable/kernel.dtb
 Saving to: 'kernel.dtb'
 
@@ -16,6 +17,8 @@ kernel.dtb                                100%[=================================
 
 
 root@volumio:/home# cp /boot/kernel.dtb /boot/kernel.dtb_bkp
+
 root@volumio:/home# cp kernel.dtb /boot/kernel.dtb
+
 root@volumio:/home# reboot
 
