@@ -1,0 +1,59 @@
+--- mm/page_alloc.c
++++ mm/page_alloc.c
+@@ -714,36 +761,26 @@ static void free_pcppages_bulk(struct zone *zone, int count,
+ 			batch_free = to_free;
+ 
+ 		do {
+-			int mt;	/* migratetype of the to-be-freed page */
+-
+-			page = list_entry(list->prev, struct page, lru);
+-			/* must delete as __free_one_page list manipulates */
++			page = list_last_entry(list, struct page, lru);
+ 			list_del(&page->lru);
+-			mt = get_freepage_migratetype(page);
+-			/* MIGRATE_MOVABLE list may include MIGRATE_RESERVEs */
+-			__free_one_page(page, zone, 0, mt);
+-			trace_mm_page_pcpu_drain(page, 0, mt);
+-			if (likely(!is_migrate_isolate_page(page))) {
+-				__mod_zone_page_state(zone, NR_FREE_PAGES, 1);
+-				if (is_migrate_cma(mt))
+-					__mod_zone_page_state(zone, NR_FREE_CMA_PAGES, 1);
+-			}
++			list_add(&page->lru, dst);
+ 		} while (--to_free && --batch_free && !list_empty(list));
+ 	}
+-	spin_unlock(&zone->lock);
+ }
+ 
+ static void free_one_page(struct zone *zone, struct page *page, int order,
+ 				int migratetype)
+ {
+-	spin_lock(&zone->lock);
++	unsigned long flags;
++
++	spin_lock_irqsave(&zone->lock, flags);
+ 	zone->all_unreclaimable = 0;
+ 	zone->pages_scanned = 0;
+ 
+ 	__free_one_page(page, zone, order, migratetype);
+ 	if (unlikely(!is_migrate_isolate(migratetype)))
+ 		__mod_zone_freepage_state(zone, 1 << order, migratetype);
+-	spin_unlock(&zone->lock);
++	spin_unlock_irqrestore(&zone->lock, flags);
+ }
+ 
+ static bool free_pages_prepare(struct page *page, unsigned int order)
+@@ -5542,11 +5601,11 @@ int __meminit init_per_zone_wmark_min(void)
+ module_init(init_per_zone_wmark_min)
+ 
+ /*
+- * min_free_kbytes_sysctl_handler - just a wrapper around proc_dointvec() so 
++ * min_free_kbytes_sysctl_handler - just a wrapper around proc_dointvec() so
+  *	that we can call two helper functions whenever min_free_kbytes
+  *	changes.
+  */
+-int min_free_kbytes_sysctl_handler(ctl_table *table, int write, 
++int min_free_kbytes_sysctl_handler(ctl_table *table, int write,
+ 	void __user *buffer, size_t *length, loff_t *ppos)
+ {
+ 	proc_dointvec(table, write, buffer, length, ppos);
