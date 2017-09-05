@@ -1,0 +1,1 @@
+this uImage without usbpatch
