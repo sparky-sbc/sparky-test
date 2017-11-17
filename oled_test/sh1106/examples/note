@@ -1,0 +1,7 @@
+3c changed to 3d .
+new module id is 3d
+
+GPIO 46 connected as reset pin.
+This pin has to set 1 to start oled.
+
+
