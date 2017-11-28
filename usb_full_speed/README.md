@@ -12,11 +12,11 @@ wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/usb_full_sp
 
 root@DietPi:/usr/src#cp uImage /boot/
 
-to set USbridge 1.0 mode edit /DietPi/uEnv.txt , add aotg.aotg_speed=0  at the end of the line.
+to set USbridge 1.1 mode edit /DietPi/uEnv.txt , add aotg.aotg1_speed=1  at the end of the line.
 
 root@DietPi:/usr/src# cat /DietPi/uEnv.txt
 
 uenvcmd=setenv os_type linux;
 
-bootargs=earlyprintk clk_ignore_unused selinux=0 scandelay console=tty0 loglevel=1 real_rootflag=rw root=/dev/mmcblk0p2 rootwait init=/lib/systemd/systemd aotg.aotg_speed=0
+bootargs=earlyprintk clk_ignore_unused selinux=0 scandelay console=tty0 loglevel=1 real_rootflag=rw root=/dev/mmcblk0p2 rootwait init=/lib/systemd/systemd aotg1.aotg_speed=1
 
