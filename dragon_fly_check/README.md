@@ -1,2 +1,18 @@
 this files for checking dragonfly usb dac with sparky USBridge 17_nov_17
 
+-updated on 30-nov 2017
+
+uImage  changes
+
+1) updated with aotg.aotg1_speed=1 parameter to change usb 1.1 , 0 for high speed. This only for connecting USB 1.1 audio dac with USBridge.
+
+2) updated with aotg.urb_fix=1  , default value 0 fir testing up to pcm 32/192k files , 1 for test DSD files DSD256 continous mode to avoid dac disconnection.
+
+these 2 parameters can be appended to the end of /boot/uenv.txt  (/Dietpi/uEnv.txt for dietpi , volumio /boot/uenv.txt)
+
+all SBC drivers updated - 3.10.38.bz2
+
+
+
+
+
