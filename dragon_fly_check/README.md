@@ -1,5 +1,9 @@
 this files for checking dragonfly usb dac with sparky USBridge 17_nov_17
 
+usb_audio_sparky.tar  - included dragonfly patch.
+
+*******************************************
+
 -updated on 30-nov 2017
 
 uImage  changes
@@ -10,7 +14,10 @@ uImage  changes
 
 these 2 parameters can be appended to the end of /boot/uenv.txt  (/Dietpi/uEnv.txt for dietpi , volumio /boot/uenv.txt)
 
-all SBC drivers updated - 3.10.38.bz2
+all SBC drivers updated - 3.10.38.bz2  
+added Sabaj Da2, Da3 DSD support  - 1 dec 2017
+
+************************************************************
 
 
 
