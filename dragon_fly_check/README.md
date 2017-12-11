@@ -14,8 +14,9 @@ uImage  changes
 
 these 2 parameters can be appended to the end of /boot/uenv.txt  (/Dietpi/uEnv.txt for dietpi , volumio /boot/uenv.txt)
 
-all SBC drivers updated - 3.10.38.bz2  
-added Sabaj Da2, Da3 DSD support  - 1 dec 2017
+all SBC drivers updated - 3.10.38.bz2 - added Sabaj Da2, Da3 DSD support  - 1 dec 2017
+
+sound/usb/snd-usb-audio.ko, sound/usb/snd-usbmidi-lib.ko updated dsd native for Matrix Audio X-SPDIF 2 -11 Dec 2017
 
 ************************************************************
 
