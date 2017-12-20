@@ -29,4 +29,5 @@ On volumio  append the parameters on /boot/uenv.txt
 
 ******************************************************
 
+last update was 11 dec 17 , this moved as previous backup
 

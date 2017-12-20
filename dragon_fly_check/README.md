@@ -20,7 +20,11 @@ sound/usb/snd-usb-audio.ko, sound/usb/snd-usbmidi-lib.ko updated dsd native for 
 
 ************************************************************
 
+11 dec update -  based on feedback
 
+20 dec update - based on feedback regarding dragon fly
+
+*****************
 
 
 
