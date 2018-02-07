@@ -17,3 +17,20 @@ Soekris dac1101
 Engineered Electronics Stereo
 
 *************************************
+update procedure on dietpi/volumio
+
+ssh root login
+
+cd /usr/src
+
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/pro-ject-s2/snd-usb-audio.ko -O /lib/modules/3.10.38/kernel/sound/usb/snd-usb-audio.ko
+
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/pro-ject-s2/snd-usbmidi-lib.ko -O /lib/modules/3.10.38/kernel/sound/usb/snd-usbmidi-lib.ko
+
+sync
+
+reboot
+
+
+
+
