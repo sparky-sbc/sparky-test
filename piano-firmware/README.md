@@ -1,5 +1,6 @@
 # piano-firmware
 Allo Piano DAC 2.1 DSP firmware files (VERSION 1.2)
+(firmware default path is /lib/firmware/allo/ )
 
 update procedure on dietpi/volumio
 
@@ -11,6 +12,6 @@ wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/piano-firmw
 
 tar -xvf piano-firmware.tar -C /lib/
 
-sync
 
-reboot
+
+
