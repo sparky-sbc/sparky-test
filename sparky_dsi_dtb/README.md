@@ -8,11 +8,11 @@ cd /usr/src
 
 wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/sparky_dsi_dtb/kernel.dtb
 
-https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/sparky_dsi_dtb/u-boot-dtb.img
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/sparky_dsi_dtb/u-boot-dtb.img
 
-https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/sparky_dsi_dtb/ctp_ft5x06.ko
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/sparky_dsi_dtb/ctp_ft5x06.ko
 
-https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/sparky_dsi_dtb/boot_logo.bmp.gz
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/sparky_dsi_dtb/boot_logo.bmp.gz
 
 dd if=u-boot-dtb.img of=/dev/mmcblk0 bs=512 seek=6144
 
