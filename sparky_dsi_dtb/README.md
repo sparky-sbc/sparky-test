@@ -25,3 +25,15 @@ cp ctp_ft5x06.ko /lib/modules/3.10.38/kernel/drivers/input/touchscreen/FT5406/ct
 sync
 
 reboot
+
+
+or
+
+ssh login
+
+cd /usr/src
+
+wget wget wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/sparky_dsi_dtb/install.sh
+
+./install.sh
+
