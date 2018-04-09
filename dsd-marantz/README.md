@@ -20,6 +20,8 @@ T+A USB HD Audio 2
 
 COMBO384 ids added 
 
+6th April 2018 - added Topper D50 dsd support
+
 *************************************
 update procedure on dietpi/volumio
 
