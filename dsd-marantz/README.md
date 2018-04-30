@@ -22,6 +22,7 @@ COMBO384 ids added
 
 6th April 2018 - added Topping D50 dsd support
 
+30th april added XMOS 20b1:3078
 *************************************
 update procedure on dietpi/volumio
 
