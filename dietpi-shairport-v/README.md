@@ -14,11 +14,11 @@ ssh login and follow below steps.
 
 root@DietPi:/usr/src# dietpi-services stop
 
-wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/dietpi-shairport-v/3.1.3/shairport-sync -O /usr/local/bin/
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/dietpi-shairport-v/3.1.3/shairport-sync -O /usr/local/bin/shairport-sync
 
 or for 3.1.7
 
-wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/dietpi-shairport-v/3.1.7/shairport-sync -O /usr/local/bin/
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/dietpi-shairport-v/3.1.7/shairport-sync -O /usr/local/bin/shairport-sync
 
 root@DietPi:/usr/src# chmod 755 /usr/local/bin/shairport-sync
 
