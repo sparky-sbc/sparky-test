@@ -1,5 +1,5 @@
 #!/bin/sh
-wget wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/sparky_dsi_dtb/sparky_dsi_touch.tar
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/sparky_dsi_dtb/sparky_dsi_touch.tar
 sleep 2 
 sudo mkdir /usr/src/sparky_lcd
 sudo tar -xvf sparky_dsi_touch.tar -C /usr/src/sparky_lcd
