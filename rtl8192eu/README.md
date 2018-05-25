@@ -4,7 +4,7 @@ added TL-WN823N support
 
 steps
 *********
-ssh ogin to sparky 
+ssh login to sparky 
 
 cd /usr/src/
 
