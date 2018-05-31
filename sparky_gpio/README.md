@@ -7,7 +7,7 @@ ssh login
 
 cd /usr/src
 
-wget https://github.com/sparky-sbc/sparky-test/blob/master/sparky_gpio/sparky_gpio
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/sparky_gpio/sparky_gpio
 
 chmod +x sparky_gpio
 
