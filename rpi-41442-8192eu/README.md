@@ -6,7 +6,7 @@ ssh login
 
 cd /usr/src/ 
 
-wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/rpi-41442-8192eu/8192eu.ko -O /lib/modules/4.14.42-v7+/kernel/drivers/net/wirless/8192eu.ko
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/rpi-41442-8192eu/8192eu.ko -O /lib/modules/4.14.42-v7+/kernel/drivers/net/wireless/8192eu.ko
 
 depmod -a
 
