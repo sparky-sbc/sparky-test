@@ -1,0 +1,8 @@
+
+rm /var/lib/dietpi/postboot.d/sparky_unmute.sh
+
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/unmute-dac/sparky_unmute.sh -O /var/lib/dietpi/postboot.d/sparky_unmute.sh
+
+chmod +x /var/lib/dietpi/postboot.d/sparky_unmute.sh
+
+
