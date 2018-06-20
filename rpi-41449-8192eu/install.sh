@@ -14,7 +14,7 @@ ver_match=1
 fi
 if [ "$ver" = "4.14.50-v7+" ]; then
   echo "kernel version is '$ver'"
-wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/rpi-41450-8192eu/8192eu.ko -O /lib/modules/4.14.49-v7+/kernel/drivers/net/wireless/8192eu.ko
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/rpi-41450-8192eu/8192eu.ko -O /lib/modules/4.14.50-v7+/kernel/drivers/net/wireless/8192eu.ko
 ver_match=1
 fi
 
