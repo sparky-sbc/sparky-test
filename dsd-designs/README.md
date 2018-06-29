@@ -6,6 +6,7 @@ the following native DSD support added , tested feedbacks to be get from usres.
 
 - new Ids added Mytek Manhatten , LH labs 1V5 2V0 ,HD-AVP/AVA IDA-8.
 
+- irDAC-ii included for native DSD. To be get feedback from users.
 
 
 *************************************
@@ -23,3 +24,13 @@ sync
 
 reboot
 
+
+or
+
+ssh root login
+
+cd /usr/src
+
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/dsd-designs/install.sh
+
+sh install.sh
