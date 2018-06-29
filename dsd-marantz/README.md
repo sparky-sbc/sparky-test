@@ -25,6 +25,11 @@ COMBO384 ids added
 30th april added XMOS 20b1:3078
 
 14th may 18 added T+A dac8 patch
+
+28th June-18 : Designs patch added for DSD on MPD-5 dac , new Ids added Mytek Manhatten , LH labs 1V5 2V0 ,HD-AVP/AVA IDA-8.
+
+29th June-18 :  irDAC-ii included for native DSD - Waiting for user feedback)
+
 *************************************
 update procedure on dietpi/volumio
 
