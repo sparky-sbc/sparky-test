@@ -30,6 +30,8 @@ COMBO384 ids added
 
 29th June-18 :  irDAC-ii included for native DSD - Waiting for user feedback)
 
+16th July-18   included for native DSD Mytek Brooklyn DAC+
+
 *************************************
 update procedure on dietpi/volumio
 

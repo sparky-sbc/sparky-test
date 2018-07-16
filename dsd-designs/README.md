@@ -8,6 +8,7 @@ the following native DSD support added , tested feedbacks to be get from usres.
 
 - irDAC-ii included for native DSD. To be get feedback from users.
 
+- included for native DSD Mytec DAC+   (16th July-18)
 
 *************************************
 update procedure on dietpi/volumio
