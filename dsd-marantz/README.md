@@ -2,23 +2,11 @@ This Includes updated usb audio drivers of USBridge dtd 6th march 2018.
 
 the following native DSD support added , tested feedbacks to be get from usres.
 
- Denon DA-300USB
+ Denon DA-300USB, Marantz HD-DAC1,  Marantz SA-14S1, TEAC UD-501/UD-503/NT-503
  
- Marantz HD-DAC1
- 
- Marantz SA-14S1 
+ Esoteric D-05X, T+A DAC8DSD-V2.0, MP1000E-V2.0, MP2000R-V2.0, MP2500R-V2.0, MP3100HV-V2.0
 
- TEAC UD-501/UD-503/NT-503
- 
- Esoteric D-05X
-
-T+A DAC8DSD-V2.0, MP1000E-V2.0, MP2000R-V2.0, MP2500R-V2.0, MP3100HV-V2.0
-
-T+A USB HD Audio 1
-
-T+A USB HD Audio 2 
-
-COMBO384 ids added 
+T+A USB HD Audio 1, T+A USB HD Audio 2 ,COMBO384 ids added 
 
 6th April 2018 - added Topping D50 dsd support
 
@@ -32,8 +20,10 @@ COMBO384 ids added
 
 16th July-18   included for native DSD Mytek Brooklyn DAC+
 
+27th Aug-18 DSD Native : Pro-Ject Box DAC , AQUA , IFI Pro iDSD  
+
 *************************************
-update procedure on dietpi/volumio
+update procedure on dietpi and volumio OS for USBridge DSD native support.
 
 ssh root login
 
@@ -47,6 +37,16 @@ sync
 
 reboot
 
+or
 
+sh root login
+
+cd /usr/src
+
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/dsd-marantz/install.sh
+
+sh install.sh
+
+reboot
 
 
