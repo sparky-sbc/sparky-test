@@ -2,19 +2,11 @@ This Includes updated usb audio drivers of USBridge dtd 7th feb 2018.
 
 the following native DSD support added , tested feedbacks to be get from usres.
 
-QUAD Artera
+7th Feb 18 : QUAD Artera ,Pro-Ject Pre Box S2 Digital, Matrix Audio Quattro II, Topping D30 (XMOS)
 
-Pro-Ject Pre Box S2 Digital
+WaveIO USB Audio 2.0, Soekris dac1101 , Engineered Electronics Stereo
 
-Matrix Audio Quattro II 
-
-Topping D30 (XMOS)
-
-WaveIO USB Audio 2.0
-
-Soekris dac1101
-
-Engineered Electronics Stereo
+Aug27-2018 : Pro-Ject Box DAC , AQUA , IFI Pro iDSD for test with altset 3.
 
 *************************************
 update procedure on dietpi/volumio
@@ -30,6 +22,20 @@ wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/pro-ject-s2
 sync
 
 reboot
+
+
+or
+
+ssh root login
+
+cd /usr/src
+
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/pro-ject-s2/install.sh
+
+sh install.sh
+
+reboot
+
 
 
 
