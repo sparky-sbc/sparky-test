@@ -22,6 +22,7 @@ T+A USB HD Audio 1, T+A USB HD Audio 2 ,COMBO384 ids added
 
 27th Aug-18 DSD Native : Pro-Ject Box DAC , AQUA , IFI Pro iDSD  
 
+29th Nov 2018 : SMSL D1 DAC DSD native added , Mytek & Xmos based dacs Generic DSD detection method applied
 *************************************
 update procedure on dietpi and volumio OS for USBridge DSD native support.
 
