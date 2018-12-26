@@ -12,3 +12,7 @@ cd /usr/src/
 sudo wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/sparky-eth/install.sh
 
 sh install.sh
+
+reboot
+
+
