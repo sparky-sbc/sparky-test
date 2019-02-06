@@ -18,6 +18,7 @@ all SBC drivers updated - 3.10.38.bz2 - added Sabaj Da2, Da3 DSD support  - 1 de
 
 sound/usb/snd-usb-audio.ko, sound/usb/snd-usbmidi-lib.ko updated dsd native for Matrix Audio X-SPDIF 2 -11 Dec 2017
 
+usb drivers updated same as in dsd-marantz folder.
 ************************************************************
 
 11 dec update -  based on feedback
