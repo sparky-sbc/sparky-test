@@ -4,7 +4,7 @@ download the tar file , extract to the /usr/src folder ,
 
 cd /usr/src/
 
-wget sudo wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/dietpi-gui-usbdebug/guiupd.tar
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/dietpi-gui-usbdebug/guiupd.tar
 
 tar -xvf guiupd.tar
 
