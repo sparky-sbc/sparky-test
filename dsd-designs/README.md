@@ -10,6 +10,7 @@ the following native DSD support added , tested feedbacks to be get from usres.
 
 - included for native DSD Mytec DAC+ ,RC-1590&RA1592  (16th July-18)
 
+- test code for PS DS DSD (31 may -19)
 *************************************
 update procedure on dietpi/volumio
 
