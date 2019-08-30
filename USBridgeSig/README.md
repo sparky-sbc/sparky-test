@@ -22,9 +22,9 @@ Updated Files are ax88179_178a.c , ax88179_178a.h and copy to linux source tree 
 Updated Driver Source available on below links. 
 
 
-https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/UsbridgeSig/ax88179.tar
+https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/USBridgeSig/ax88179.tar
 
 
 from linux :
 
-wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/UsbridgeSig/ax88179.tar
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/USBridgeSig/ax88179.tar
