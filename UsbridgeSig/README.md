@@ -35,6 +35,7 @@ wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/UsbridgeSig
 updated version check using modinfo : run below command , result will be v0.1.4
 
 modinfo ax88179_178a | grep version
+
 version:        v0.1.4
 
 
