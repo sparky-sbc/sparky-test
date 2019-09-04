@@ -11,7 +11,7 @@ MicroSD card for OS (8GB or above) , Power input - 5V/3A
 
 ******************************************************
 
-USBridgeSig having ASIX AX88179 Gigabit Etherenet Port. Asix Driver need to update  for USB audio streaming applications.
+USBridgeSig having ASIX AX88179 Gigabit Etherenet Port. Asix Driver (version 1.4) need to update  for USB audio streaming applications.
 
 Updated Files are ax88179_178a.c , ax88179_178a.h and copy to linux source tree for compilation.
 
@@ -28,3 +28,18 @@ https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/UsbridgeSig/ax88
 from linux :
 
 wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/UsbridgeSig/ax88179.tar
+
+
+
+**************
+updated version check using modinfo : run below command , result will be v0.1.4
+
+modinfo ax88179_178a | grep version
+version:        v0.1.4
+
+
+info : Pull Request  submited on Raspberrypi Linux kernel repository
+
+https://github.com/raspberrypi/linux/pull/2999
+
+
