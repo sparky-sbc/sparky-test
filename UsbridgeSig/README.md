@@ -44,3 +44,24 @@ info : Pull Request  submited on Raspberrypi Linux kernel repository
 https://github.com/raspberrypi/linux/pull/2999
 
 
+***************** WIFI Modules driver installation ******
+
+thanks to https://www.raspberrypi.org/forums/viewtopic.php?t=194859
+
+ssh  or terminal login using OS credentials 
+
+
+sudo wget http://fars-robotics.net/install-wifi -O /usr/bin/install-wifi
+
+sudo chmod +x /usr/bin/install-wifi
+
+for help
+
+sudo install-wifi -h
+
+sudo install-wifi
+
+
+
+
+
