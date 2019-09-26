@@ -44,14 +44,13 @@ info : Pull Request  submited on Raspberrypi Linux kernel repository
 https://github.com/raspberrypi/linux/pull/2999
 
 
-***************** WIFI Modules driver installation ******
+***************** WIFI Modules driver installation on Raspbian******
 
 thanks to https://www.raspberrypi.org/forums/viewtopic.php?t=194859
 
 ssh  or terminal login using OS credentials 
 
-
-sudo wget http://fars-robotics.net/install-wifi -O /usr/bin/install-wifi
+sudo wget http://3.230.113.73:9011/Allocom/USBridgeSig/install-wifi -O /usr/bin/install-wifi
 
 sudo chmod +x /usr/bin/install-wifi
 
@@ -62,6 +61,15 @@ sudo install-wifi -h
 sudo install-wifi
 
 
+****************install ASIX updated driver on Raspbian 4.19.50-v7+ onwards**************
+
+ssh  or terminal login using OS credentials
+
+cd /usr/src
+
+sudo wget http://3.230.113.73:9011/Allocom/USBridgeSig/install.sh
+
+sh install.sh
 
 
 
