@@ -26,3 +26,11 @@ root@DietPi:/usr/src# dietpi-services start
 
 *******************************************************************************************
 
+for 3.2.2 version
+
+wget https://raw.githubusercontent.com/sparky-sbc/sparky-test/master/dietpi-shairport-v/v3.2.2/shairport-sync -O /usr/local/bin/shairport-sync
+
+root@DietPi:/usr/src# chmod 755 /usr/local/bin/shairport-sync
+
+root@DietPi:/usr/src# dietpi-services start
+
